@@ -1,5 +1,8 @@
 # *Replace with YourProposedProposedProjectName*
 ## Description/Motivation
+## Project Concept
+See project Concept [here](Concept.md)
+
 
 Your formally written project proposal description, and why it is useful/interesting/fun goes here. Try to be as descriptive as possible, as we will be discussing your project ideas during the brainstorming in class.
 
