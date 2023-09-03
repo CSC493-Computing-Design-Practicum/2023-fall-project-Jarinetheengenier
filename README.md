@@ -1,14 +1,13 @@
-# *Replace with YourProposedProposedProjectName*
+# *J-Elegance.com*
+
 ## Description/Motivation
+
 ## Project Concept
 See project Concept [here](Concept.md)
 
-
-Your formally written project proposal description, and why it is useful/interesting/fun goes here. Try to be as descriptive as possible, as we will be discussing your project ideas during the brainstorming in class.
-
 ### Prerequisites
 
-What is likely to be needed to install and to run *YourProposedProjectName* go here. If nothing is required (i.e. it is a website), state so.
+What is likely to be needed to install and to run *YourProposedProjectName* go here.If nothing is required (i.e. it is a website), state so.
 
 ## Built With
 
@@ -19,8 +18,9 @@ What is likely to be needed to install and to run *YourProposedProjectName* go h
 ## Author
 
 - **Jarine Fietsop**
--  ** [yourLinkedIn or yourGithub profile](https://adrress)
-
+- **J-Elegance.com**
+- **Linkedin** : https://www.linkedin.com/in/jarine-fietsop/
+  
 ## Acknowledgments
 
 - If you find code that you are going to use in YourProjectName, include author's name and URL here.
