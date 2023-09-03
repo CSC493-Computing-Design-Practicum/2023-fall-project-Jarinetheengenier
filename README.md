@@ -18,7 +18,8 @@ What is likely to be needed to install and to run *YourProposedProjectName* go h
 
 ## Author
 
-- **Your name**: *YourProposadProjectName* [yourLinkedIn or yourGithub profile](https://adrress)
+- **Jarine Fietsop**
+-  ** [yourLinkedIn or yourGithub profile](https://adrress)
 
 ## Acknowledgments
 
