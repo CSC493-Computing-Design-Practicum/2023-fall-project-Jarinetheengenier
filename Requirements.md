@@ -1,9 +1,8 @@
 ## CSC 493: R03: Update Requirements and Software Development1
-Overview
-You created a file called requirements.md where you will have your Preliminary Software Requirements Specification (SRS) and hopefully included a lot of information to help you move forward with initial implemtation. Well, now is the time!
+
 
 Documentation
-You have two written tasks to complete before next time. First, update the README.md file with any changes you have made in your project. and include links to your concept and requirements files. To add the links, encapsulate the text to be seen with square brackets and then immediately follow that with parenthesis with RELATIVE links that consists of just the filename.
+You have two written tasks to complete before next time. First, update the README.md file with any changes you have made in your project. and include links to your concept and requirements files. To add the links, encapsulate the text to be seen with square brackets and then immediately follow that with parenthesis with RELATIVE links that consist of just the filename.
 
 ## README.md
 
