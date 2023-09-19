@@ -7,7 +7,7 @@ See project Concept [here](Concept.md)
 ## Project Requirements
 See project Requirements [here](Requirements.md)
 ## Vision and Scope
-See the project Visiona and Scope [here](Vision and Scope.md)
+See the project Vision and Scope [here](vision.scope.md)
 
 ### Prerequisites
 
