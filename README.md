@@ -9,6 +9,9 @@ See project Requirements [here](Requirements.md)
 ## Vision and Scope
 See the project Vision and Scope [here](vision.scope.md)
 
+## Design
+See the project design [here](design.md)
+
 ### Prerequisites
 
 What is likely to be needed to install and to run *YourProposedProjectName* go here.If nothing is required (i.e. it is a website), state so.
