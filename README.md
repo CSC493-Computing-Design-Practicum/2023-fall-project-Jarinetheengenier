@@ -7,6 +7,7 @@ See project Concept [here](Concept.md)
 Project Scope:
 J-Elegance.com will be a website that will incorporate listings of traditional outfits from West Africa, western culture, French, and Central America. I have planned to not just list clothes but also to have listings of women's accessories, lipsticks, lashes, eye shadows, etc. I will like to make it a small online store where people could stop by and be able to find the things that they need. The website is going to have about 4 pages; the home page, help page, Checkout page, and about page. More pages may be added as needed.
 Project Vision:
+The main purpose of J-Elegance is  to share my sense of Fashion with the world. I want the world to have a feeling of the rich West African culture through our costumes. I want people of every race, sex, and gender to feel placid and gratified putting on clothes from J-Elegance.
 
 ## Project Requirements
 See project Requirements [here](Requirements.md)
