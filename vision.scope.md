@@ -7,18 +7,18 @@ pick and build a new small component
 test the component in isolation with expected inputs and outputs (unit testing)
 integrating the component into your system
 test the new system
-maybe adjusting design and scope
+maybe adjusting the design and scope
 go back to step 1
-Note that it would be advisable to implement and test as many components as possible between weekly report outs so that you can gauge your progress. You can also expect to encounter errors as you develop your system, and as long as you have a working (not necessarily perfect) system, you are making progress. You are to create issues in GitHub for things that you mean to fix and they can be a mix of bugs in your implementation and more aesthetic problems (the button on a web page is the wrong colour, and so forth). As long as you feel as though you are progressing with the functionality of your system, the scope should not change.
+Note that it would be advisable to implement and test as many components as possible between weekly report outs so that you can gauge your progress. You can also expect to encounter errors as you develop your system, and as long as you have a working (not necessarily perfect) system, you are making progress. You are to create issues in GitHub for things that you mean to fix and they can be a mix of bugs in your implementation and more aesthetic problems (the button on a web page is the wrong color, and so forth). As long as you feel as though you are progressing with the functionality of your system, the scope should not change.
 
 Where to insert your Scope and Vision
 In your README.md file, add the scope and vision paragraphs below the project concept section.
 
-README.md
+## README.md
 
-Project name
+Project name: J-Elegance.com
 Project Concept (linked to concept.md)
-[Scope]:  J-Elegance.com will be a website that will incorporate listings of traditional outfits from West Africa, western culture, French, and central America. I have planned to not just list clothes but also to have listings of women's accessories, lipsticks, lashes, eye shadows, etc. I will like to make it a small online store where people could stop by and be able to find the things that they need. The website is going to have about 4 pages; the home page, help page, Checkout page, and about page. More pages may be added as needed.
+[Scope]:  J-Elegance.com will be a website that will incorporate listings of traditional outfits from West Africa, western culture, French, and Central America. I have planned to not just list clothes but also to have listings of women's accessories, lipsticks, lashes, eye shadows, etc. I will like to make it a small online store where people could stop by and be able to find the things that they need. The website is going to have about 4 pages; the home page, help page, Checkout page, and about page. More pages may be added as needed.
 
 [Vision]: The main purpose of J-Elegance is  to share my sense of Fashion with the world. I want the world to have a feeling of the rich West African culture through our costumes. I want people of every race, sex, and gender to feel placid and gratified putting on clothes from J-Elegance.
 
@@ -27,10 +27,10 @@ Built With JavaScript, Bootsrap, node.js
 Author name: Jarine Fietsop
 Acknowledgments: Deanna Wilborn, Joy Mirembe
 Preliminary Software Requirements Specifications (SRS)
-Once you have defined your vision and scope a bit more, now we go into more details about WHAT is needed.
+Once you have defined your vision and scope a bit more, we go into more detail about WHAT is needed.
 
 What is an SRS document?
-A Software Requirements Specification (SRS) is a written understanding of system requirements prior to any actual design or implementation work. The SRS document states in precise and explicit language those functions and capabilities a software system must provide, and any required constraints which the system must follow. An SRS contains functional and nonfunctional requirements only, rather than design ideas.
+A Software Requirements Specification (SRS) is a written understanding of system requirements prior to any actual design or implementation work. The SRS document states in precise and explicit language those functions and capabilities a software system must provide and any required constraints which the system must follow. An SRS contains functional and nonfunctional requirements only, rather than design ideas.
 
 Functional requirements
 The website is supposed to be user-friendly with a high level of usability. I would like the users to have the same experience they have when purchasing 
