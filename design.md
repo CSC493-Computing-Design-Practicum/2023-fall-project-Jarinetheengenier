@@ -24,22 +24,43 @@ You have some tasks to complete before next time:
 
 Ultimately, the software architectural design must be:
 
-- a simplified description of the entire planned project system which abstracts the essentials and ignores the non-essentials;
-- defines the major software components (classes, methods, etc);
-- uses a hierarchical presentation which makes the system simple to understand;
-- shows the flow of control and data through the system;
-- is organized according to consistent conventions;
-- can be used for reasoning about the software system.
-
-Any architectural software design which satisfies the above criteria may be used. Many
-software developers use schematic designs of the planned software components as part of
-their modeling description, but this is not required. It is acceptable to list the planned
-software components with brief descriptions as long as the control hierarchy and
-interactions among the components are also made clear.
+Frontend (React):
+Home Component (Home.js): This will be the landing page of the website. It will use React’s render() method to display the home page layout.
+Product List Component (ProductList.js): This will display all the products available in the store. It will use React’s componentDidMount() method to fetch product data from the backend when the component is loaded.
+Product Detail Component (ProductDetail.js): This will show detailed information about a specific product when a user clicks on it. It will use React’s componentDidMount() method to fetch detailed product data from the backend when the component is loaded.
+Cart Component (Cart.js): This will show all the products added to the cart by the user. It will use React’s componentDidMount() method to fetch cart data from the backend when the component is loaded.
+Checkout Component (Checkout.js): This will handle the checkout process. It will use React’s componentDidMount() method to fetch checkout data from the backend when the component is loaded.
+Backend (Django):
+Product API (views.py in products app): This will handle all requests related to products (e.g., get all products, get a specific product). It will use Django’s get() and post() methods in APIView class to handle HTTP GET and POST requests.
+Cart API (views.py in cart app): This will handle all requests related to the cart (e.g., add a product to the cart, remove a product from the cart). It will use Django’s get(), post(), and delete() methods in APIView class to handle HTTP GET, POST, and DELETE requests.
+Order API (views.py in orders app): This will handle all requests related to orders (e.g., create an order, get order details). It will use Django’s get() and post() methods in APIView class to handle HTTP GET and POST requests.
+Database:
+Will store all data related to products, users, carts, and orders. You can use Django’s built-in ORM for this.
+User Authentication:
+Will handle user registration, login, and session management. You can use Django’s built-in authentication system for this.
 
 **Note: For next time, you only need to begin this work. You will be fleshing out more details in over the next week.
 So, feel free to use a very high level design for next time.**
 
-### Update <code>README.md</code>
+## Update README.md
+Open the README.md and insert an entry called "Design" that is linked to the design.md file.
 
-Open the <code>README.md</code> and insert an entry called "Design" that is linked 
+README.md
+
+Project name: J-Elegance.com
+Project Concept [concept](linked to concept.md)
+Project proposal
+Vision
+Remember that the paragraph of your vision is here.
+Scope
+Remember that the paragraph of your scope is here.
+Prerequisites
+Requirements (linked to requirements.md)
+Design (linked to design.md)
+Built With
+Author name: Jarine Fietsop
+Acknowledgments: None
+To Submit
+In addition to creating the design.md file, update README.md as necessary.
+
+1. Adapted from https://github.com/pearcej/pearcej.github.io/edit/master/csc493/r04-design.md
