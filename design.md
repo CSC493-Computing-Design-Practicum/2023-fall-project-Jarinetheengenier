@@ -20,3 +20,26 @@ You have some tasks to complete before next time:
 - Create and complete a file called <code>design.md</code>.
 - Update <code>README.md</code> to link to the file you just created.
 
+### Create a new file called <code>design.md</code>.
+
+Ultimately, the software architectural design must be:
+
+- a simplified description of the entire planned project system which abstracts the essentials and ignores the non-essentials;
+- defines the major software components (classes, methods, etc);
+- uses a hierarchical presentation which makes the system simple to understand;
+- shows the flow of control and data through the system;
+- is organized according to consistent conventions;
+- can be used for reasoning about the software system.
+
+Any architectural software design which satisfies the above criteria may be used. Many
+software developers use schematic designs of the planned software components as part of
+their modeling description, but this is not required. It is acceptable to list the planned
+software components with brief descriptions as long as the control hierarchy and
+interactions among the components are also made clear.
+
+**Note: For next time, you only need to begin this work. You will be fleshing out more details in over the next week.
+So, feel free to use a very high level design for next time.**
+
+### Update <code>README.md</code>
+
+Open the <code>README.md</code> and insert an entry called "Design" that is linked 
