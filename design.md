@@ -51,9 +51,9 @@ Project name: J-Elegance.com
 Project Concept [concept](linked to concept.md)
 Project proposal
 Vision
-Remember that the paragraph of your vision is here.
+
 Scope
-Remember that the paragraph of your scope is here.
+J-Elegance.com will be a website that will incorporate listings of traditional outfits from West Africa, western culture, French, and Central America. I have planned to not just list clothes but also to have listings of women's accessories, lipsticks, lashes, eye shadows, etc. I will like to make it a small online store where people could stop by and be able to find the things that they need. The website is going to have about 4 pages; the home page, help page, Checkout page, and about page. More pages may be added as needed.
 Prerequisites
 Requirements (linked to requirements.md)
 Design (linked to design.md)
