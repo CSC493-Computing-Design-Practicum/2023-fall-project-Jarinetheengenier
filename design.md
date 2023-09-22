@@ -24,13 +24,13 @@ You have some tasks to complete before next time:
 
 Ultimately, the software architectural design must be:
 
-Frontend (React):
+## Frontend (React):
 Home Component (Home.js): This will be the landing page of the website. It will use React’s render() method to display the home page layout.
 Product List Component (ProductList.js): This will display all the products available in the store. It will use React’s componentDidMount() method to fetch product data from the backend when the component is loaded.
 Product Detail Component (ProductDetail.js): This will show detailed information about a specific product when a user clicks on it. It will use React’s componentDidMount() method to fetch detailed product data from the backend when the component is loaded.
 Cart Component (Cart.js): This will show all the products added to the cart by the user. It will use React’s componentDidMount() method to fetch cart data from the backend when the component is loaded.
 Checkout Component (Checkout.js): This will handle the checkout process. It will use React’s componentDidMount() method to fetch checkout data from the backend when the component is loaded.
-Backend (Django):
+## Backend (Django):
 Product API (views.py in products app): This will handle all requests related to products (e.g., get all products, get a specific product). It will use Django’s get() and post() methods in APIView class to handle HTTP GET and POST requests.
 Cart API (views.py in cart app): This will handle all requests related to the cart (e.g., add a product to the cart, remove a product from the cart). It will use Django’s get(), post(), and delete() methods in APIView class to handle HTTP GET, POST, and DELETE requests.
 Order API (views.py in orders app): This will handle all requests related to orders (e.g., create an order, get order details). It will use Django’s get() and post() methods in APIView class to handle HTTP GET and POST requests.
@@ -51,13 +51,13 @@ Project name: J-Elegance.com
 Project Concept [concept](linked to concept.md)
 Project proposal
 Vision
-
+The main purpose of J-Elegance is to share my sense of Fashion with the world. I want the world to have a feeling of the rich West African culture through our costumes. I want people of every race, sex, and gender to feel placid and gratified putting on clothes from J-Elegance.
 Scope
 J-Elegance.com will be a website that will incorporate listings of traditional outfits from West Africa, western culture, French, and Central America. I have planned to not just list clothes but also to have listings of women's accessories, lipsticks, lashes, eye shadows, etc. I will like to make it a small online store where people could stop by and be able to find the things that they need. The website is going to have about 4 pages; the home page, help page, Checkout page, and about page. More pages may be added as needed.
 Prerequisites
-Requirements (linked to requirements.md)
-Design (linked to design.md)
-Built With
+Requirements [requirements](linked to requirements.md)
+Design [design](linked to design.md)
+Built With: JavaScript, Django, React, Bootstrap, HTML
 Author name: Jarine Fietsop
 Acknowledgments: None
 To Submit
