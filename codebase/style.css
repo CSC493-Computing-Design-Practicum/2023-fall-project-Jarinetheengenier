@@ -1,0 +1,47 @@
+
+
+header img{
+    height: 80px;
+    margin-left: 40px;
+}
+body{
+    height: 125vh;
+    background-color: rgb(183, 160, 181);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+main {
+    color:azure;
+}
+
+header{
+background-color: beige;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+    
+}
+header li a {
+    text-decoration: none;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
