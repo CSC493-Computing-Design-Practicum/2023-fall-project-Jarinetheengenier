@@ -3,7 +3,7 @@
 **LOGO**  
 
 ![J-Elegance logo](https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-Jarinetheengenier/assets/112044628/16a1b8b6-d466-480b-8bed-cdae1c826a52)
-See the logo by clicking the link above.
+
 
 ## Description/Motivation
 
