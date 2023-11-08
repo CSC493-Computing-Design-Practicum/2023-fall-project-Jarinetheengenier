@@ -1,5 +1,10 @@
 # *J-Elegance.com*
 
+**LOGO**  
+
+![J-Elegance logo](https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-Jarinetheengenier/assets/112044628/16a1b8b6-d466-480b-8bed-cdae1c826a52)
+
+
 ## Description/Motivation
 
 ## Project Concept
@@ -36,6 +41,11 @@ What is likely to be needed to install and to run *YourProposedProjectName* go h
 - **Jarine Fietsop**
 - **J-Elegance.com**
 - **Linkedin** : https://www.linkedin.com/in/jarine-fietsop/
+- **About** My name is Jarine Fietsop and I am from Cameroon, West AFRICA. I came to the United States 4 years ago and during my time here, I have seen and embraced Western culture. However, there is a saying that goes, there is no place like home. I love doing things that make me feel connected to my culture because then, I do not feel lost in myself. J-elegance gives me the opportunity to do that. I am able to share my culture with the world around me through fashion and that gives me enormous joy.
+
+## Test Cases
+See the document for the different test cases [here](test.plan.md)
+  
   
 ## Acknowledgments
 
