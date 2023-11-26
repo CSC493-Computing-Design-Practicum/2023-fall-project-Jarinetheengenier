@@ -26,6 +26,39 @@ const product= [
 ]
 
 
+const addToCartButtons = document.querySelectorAll(".add-to-cart");
+const payment = document.querySelector(".payment");
+const close = document.querySelector(".close");
+
+addToCartButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    
+    // payment.style.display = "flex";
+    let item = {
+      name: "Blue party gown",
+      price: 159.99,
+      quantity: 1
+      
+    };
+    
+    localStorage.setItem('cartItem', JSON.stringify(item));
+    window.location.href = "cart.html";
+  });
+});
+close.addEventListener("click", () => {
+  payment.style.display = "none";
+});
+
+let cartItem = JSON.parse(localStorage.getItem('cartItem')); // Retrieve the item from localStorage
+
+if (cartItem) {
+  // Display the item on the page
+  // This will depend on how your page is structured
+  console.log(cartItem.name);
+  console.log(cartItem.price);
+  console.log(cartItem.quantity);
+}
+
 
 let cart = [];
 
@@ -66,15 +99,4 @@ function updateCart() {
  
   // setting up functionality for the payment option on my code
 
-const productButton = document.querySelector(".productButton");
-const payment = document.querySelector(".payment");
-const close = document.querySelector(".close");
-
-productButton.addEventListener("click", () => {
-  payment.style.display = "flex";
-});
-
-close.addEventListener("click", () => {
-  payment.style.display = "none";
-});
 
