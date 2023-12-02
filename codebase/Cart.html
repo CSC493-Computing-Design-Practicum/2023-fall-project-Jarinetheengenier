@@ -5,10 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css"> 
+    <!-- <link rel="stylesheet" href="index.css">  -->
 </head>
 <body>
-    <p>Hello</p>
-    
+  
+        <h2> Cart Item </h2>
+        <p id="itemName"></p>
+        <p id="itemPrice"></p>
+        <p id="itemQuantity"></p>
 </body>
+<script>
+    window.onload = function() {
+  let cartItem = JSON.parse(localStorage.getItem('cartItem')); // Retrieve the item from localStorage
+
+  if (cartItem) {
+    document.getElementById('itemName').textContent = cartItem.name;
+    document.getElementById('itemPrice').textContent = cartItem.price;
+    document.getElementById('itemQuantity').textContent = cartItem.quantity;
+  }
+    }
+</script>
+<script>
+let cartItem = JSON.parse(localStorage.getItem('cartItem')); // Retrieve the item from localStorage
+
+if (cartItem) {
+
+console.log(cartItem.name);
+console.log(cartItem.price);
+console.log(cartItem.quantity);
+}
+</script>
+
+
+
+    
+
+
 </html>

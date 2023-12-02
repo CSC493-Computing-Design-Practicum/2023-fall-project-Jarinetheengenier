@@ -37,66 +37,71 @@ addToCartButtons.forEach((button) => {
     let item = {
       name: "Blue party gown",
       price: 159.99,
-      quantity: 1
+      quantity: 1,
       
     };
+
     
-    localStorage.setItem('cartItem', JSON.stringify(item));
-    window.location.href = "cart.html";
+    
+     localStorage.setItem('cartItem', JSON.stringify(item));
+   
   });
 });
-close.addEventListener("click", () => {
-  payment.style.display = "none";
-});
+//     window.location.href = "cart.html";
+//     localStorage.setItem('cartItem', button.getAttribute("value"));
+     
+// close.addEventListener("click", () => {
+//   payment.style.display = "none";
+// });
 
-let cartItem = JSON.parse(localStorage.getItem('cartItem')); // Retrieve the item from localStorage
+// let cartItem = JSON.parse(localStorage.getItem('cartItem')); // Retrieve the item from localStorage
 
-if (cartItem) {
-  // Display the item on the page
-  // This will depend on how your page is structured
-  console.log(cartItem.name);
-  console.log(cartItem.price);
-  console.log(cartItem.quantity);
-}
-
-
-let cart = [];
-
-// Get the button by class name and add click event
-document.addEventListener('DOMContentLoaded', function() {
-  const addToCartButtons = document.querySelectorAll('.add-to-cart');
-  
-  addToCartButtons.forEach(button => {
-    button.addEventListener('click', addToCart);
-  });
-});
-
-function addToCart() {
-  cart.push("product-listing");
-
-  // Call a function to update the cart display
-  updateCart();
-}
-
-function updateCart() {
-  // Your existing cart update code remains the same
-  // ...
-
-  cart.forEach(item => {
-    const itemElement = document.createElement("p");
-    itemElement.textContent = item;
-    cartElement.appendChild(itemElement);
-  });
-
-  // Remove the existing cart and append the updated one
-  const existingCart = document.querySelector('.cart');
-  if (existingCart) {
-    existingCart.remove();
-  }
-
-  document.body.appendChild(cartElement);
-}
+// if (cartItem) {
  
-  // setting up functionality for the payment option on my code
+//   console.log(cartItem.name);
+//   console.log(cartItem.price);
+//   console.log(cartItem.quantity);
+// }
 
+
+// let cart = [];
+
+// // Get the button by class name and add click event
+// document.addEventListener('DOMContentLoaded', function() {
+//   const addToCartButtons = document.querySelectorAll('.add-to-cart');
+  
+//   addToCartButtons.forEach(button => {
+//     button.addEventListener('click', addToCart);
+//   });
+// });
+
+// function addToCart() {
+//   cart.push("product-listing");
+
+//   // Call a function to update the cart display
+//   updateCart();
+// }
+
+// function updateCart() {
+//   // Your existing cart update code remains the same
+//   // ...
+
+//   cart.forEach(item => {
+//     const itemElement = document.createElement("p");
+//     itemElement.textContent = item;
+//     cartElement.appendChild(itemElement);
+//   });
+
+//   // Remove the existing cart and append the updated one
+//   const existingCart = document.querySelector('.cart');
+//   if (existingCart) {
+//     existingCart.remove();
+//   }
+
+//   document.body.appendChild(cartElement);
+// }
+ 
+//   // setting up functionality for the payment option on my code
+  
+  
 
