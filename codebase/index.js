@@ -41,6 +41,22 @@ addToCartButtons.forEach((button) => {
       
     };
 
+    let iitem = {
+      name: "Glorydome",
+      price: 88.99,
+      quantity: 1,
+      
+    };
+
+    let iiitem = {
+      name: "Jiliah",
+      price: 75.99,
+      quantity: 1,
+      
+    };
+
+
+
     
     
      localStorage.setItem('cartItem', JSON.stringify(item));

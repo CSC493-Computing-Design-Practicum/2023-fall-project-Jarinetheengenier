@@ -436,5 +436,89 @@ button.blue:hover {
     cursor: pointer;
     
   }
+
+  .cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+  }
+
+  #cart table img {
+    width: 70px;
+}
+#cart table thead td{
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 13px;
+   padding: 18px 0; 
+}
+#cart table tbody tr td{
+padding-top: 15px;
+}
+
+#cart table tbody td{
+    font-size: 13px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4)
+#cart table td:nth-child(5)
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 15px 10px;
+}
+#cart-add {
+     display: flex;
+     justify-content:center;
+     flex-wrap: wrap;
+}
+ #Subtotal{
+    width: 50%;
+    margin-bottom: 50px;
+    border: 5px solid #3bc546;
+    padding: 30px;
+ }
+
+ #Subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+ }
+
+ #Subtotal table td{
+    width: 50%;
+    border: 3px solid #7fbba1;
+    padding: 10px;
+    font-size: 13px;
+ }
+ #Subtotal h3{
+    padding-bottom: 15px;
+ }
+ #Subtotal button{
+    background-color: #369e62 ;
+    color: white;
+    padding: 12px 20px;
+ }
+
   
   
