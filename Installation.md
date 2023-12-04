@@ -42,7 +42,11 @@ The paragraph of your scope is here.
 ## How to access and Run the code from Github
 In order to access the code, please use the link submitted on Moodle to get to my Github directory. 
 Once on Github, click on the codebase.
+![image](https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-Jarinetheengenier/assets/112044628/55064d8c-971d-45a5-8d68-55f1cbac9d01)
 
 Here, you will find all the files with the code that I created.
 Download or copy the files to your computer and run the code.
+![image](https://github.com/CSC493-Computing-Design-Practicum/2023-fall-project-Jarinetheengenier/assets/112044628/ec6d2cb3-33cd-4bed-a9b2-2aea4c949403)
+
+
 
