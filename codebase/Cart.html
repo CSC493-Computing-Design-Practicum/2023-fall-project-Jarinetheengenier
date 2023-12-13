@@ -25,10 +25,10 @@
     </nav>
 </header>
   
-        <h2> Cart Item </h2>
-        <!-- <p id="itemName"></p>
-        <p id="itemPrice"></p> -->
-        <!-- <p id="itemQuantity"></p> -->
+        <!-- <h2> Cart Item </h2> -->
+        <p id="itemName"></p>
+        <p id="itemPrice"></p> 
+        <p id="itemQuantity"></p>
         <section id="cart"  class="section-p1">
           <table width ="100%">
             <thead>
@@ -84,12 +84,41 @@
               </tr>
               <tr>
                 <td><strong>Total</strong></td>
-                <td><strong>$380</strong></td>
+                <td><strong>$390.65</strong></td>
               </tr>
             </table>
             <button class="normal"> Checkout</button>
           </div>
         </section>
+
+        <div class="payment">
+          <h1 class="payTitle">Personal Information</h1>
+          <label> Full Name</label>
+          <input type="text" placeholder="John Doe" class="payInput">
+          <label>Phone Number</label>
+          <input type="text" placeholder="+1 234 5678" class="payInput">
+          <label>Address</label>
+          <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+          <h1 class="payTitle">Card Information</h1>
+          <div class="cardIcons">
+              <img src="./images/AA.png" width="40" alt="" class="cardIcon">
+              <img src="./images/master.png" alt="" width="40" class="cardIcon">
+              <img src="./images/visa.png" alt="" width="40" class="cardIcon">
+          </div>
+          <input type="password" class="payInput" placeholder="Card Number">
+          <div class="cardInfo">
+              <input type="text" placeholder="mm" class="payInput sm">
+              <input type="text" placeholder="yyyy" class="payInput sm">
+              <input type="text" placeholder="cvv" class="payInput sm">
+          </div>
+          <!-- <button class="payButton">Checkout!</button> -->
+          <span class="close">X</span>
+          <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+          <div class="elfsight-app-4c3133d4-827d-47f4-b8dd-db5fff3f6deb" data-elfsight-app-lazy></div>
+      </div>
+      <!-- <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-4c3133d4-827d-47f4-b8dd-db5fff3f6deb" data-elfsight-app-lazy></div>
+   -->
 
         <footer>
           <div id="footer-content">
@@ -109,32 +138,6 @@
               
             </div>
       </footer>
+      <script src="index.js"></script>
 </body>
-<script>
-    window.onload = function() {
-  let cartItem = JSON.parse(localStorage.getItem('cartItem')); // Retrieve the item from localStorage
-
-  if (cartItem) {
-    document.getElementById('itemName').textContent = cartItem.name;
-    document.getElementById('itemPrice').textContent = cartItem.price;
-    document.getElementById('itemQuantity').textContent = cartItem.quantity;
-  }
-    }
-</script>
-<script>
-let cartItem = JSON.parse(localStorage.getItem('cartItem')); // Retrieve the item from localStorage
-
-if (cartItem) {
-
-console.log(cartItem.name);
-console.log(cartItem.price);
-console.log(cartItem.quantity);
-}
-</script>
-
-
-
-    
-
-
 </html>
